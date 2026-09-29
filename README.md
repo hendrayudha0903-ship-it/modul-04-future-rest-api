@@ -18,7 +18,7 @@ serta status ruangan.
 Aplikasi memiliki tampilan dashboard yang responsif sehingga dapat
 menyesuaikan tampilan pada berbagai ukuran layar.
 
-## Fitur
+## Fitur RuangKita
 
 - Menampilkan daftar ruang laboratorium
 - Menampilkan nama kegiatan/praktikum
@@ -46,43 +46,45 @@ Status ruangan yang tersedia:
 
 ## Cara Menjalankan Project
 
-1. Clone repository:
-
-```bash
-git clone https://github.com/hendrayudha0903-ship-it/RuangKita.git
-
-## Fitur
-
-- Menampilkan daftar ruangan laboratorium.
-- Menampilkan aktivitas praktikum.
-- Menampilkan jadwal penggunaan ruangan.
-- Menampilkan status ruangan.
-- Filter ruangan berdasarkan status.
-- Menampilkan detail ruangan melalui Bottom Sheet.
-- Tampilan responsive untuk berbagai ukuran layar.
-
-## Cara Menjalankan Project
-
 Pastikan Flutter sudah terinstall, kemudian jalankan:
 
 ```bash
 flutter pub get
 flutter run
 
+# Modul 04 — Future & REST API Dasar
 
-### Langkah 2 — simpan
+## Portal Pengumuman TRPL
 
-Tekan:
+Project Flutter untuk praktikum Modul 04 mengenai Future,
+REST API, JSON, FutureBuilder, dan pengelolaan kondisi data.
 
-```text
-Ctrl + S
+## Fitur
 
-## Status Project
+- Mengambil data dari REST API
+- Menampilkan data pengumuman
+- Filter berdasarkan kategori
+- Kondisi loading
+- Kondisi error
+- Kondisi data kosong
+- Kondisi berhasil
+- Refresh data
+- Detail pengumuman
 
-Project RuangKita telah selesai dibuat dan diuji.
+## Dokumentasi
 
-Fitur yang tersedia:
-- Menampilkan daftar ruangan laboratorium
-- Filter berdasarkan status ruangan
-- Menampilkan detail ruangan
-- Tampilan responsive
+### 1. Kondisi Berhasil
+
+![Kondisi Berhasil](./screenshot/01-berhasil.png)
+
+### 2. Kondisi Loading
+
+![Kondisi Loading](./screenshot/02-loading.png)
+
+### 3. Kondisi Error
+
+![Kondisi Error](./screenshot/03_eror.png)
+
+### 4. Kondisi Kosong
+
+![Kondisi Kosong](./screenshot/04-kosong.png)
